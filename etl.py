@@ -5,12 +5,12 @@ import sqlite3
 
 # 1 - extracting data or read data
 # 1-1 - reading from url
-# url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
-# df = pd.read_csv(url)
+url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+df = pd.read_csv(url)
 
 # 1-2- or read from downloaded csv
-df = pd.read_csv("owid-covid-data.csv")
-# print (df.head())
+# df = pd.read_csv("owid-covid-data.csv")
+# # print (df.head())
 
 # 2 - transforming data
 # 2-1- Clean Columns
